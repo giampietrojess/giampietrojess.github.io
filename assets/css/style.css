@@ -55,6 +55,7 @@ body {
     width: 100%;
     transition: all .6s ease-in-out;
     -webkit-transition: all .6s ease-in-out;
+    margin-bottom: 200px;
 
   }
   .content {
