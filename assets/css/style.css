@@ -53,6 +53,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
 
   }
   .content {
