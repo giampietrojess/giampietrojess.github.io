@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     }
 
-
+    //Mobile Navbar
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
 
   });
 

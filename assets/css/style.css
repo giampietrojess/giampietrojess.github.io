@@ -187,4 +187,27 @@ h1 {
         background-color: white;
     
     }
+
+    .btn {
+        background-color: #aaa;
+        color: white;
+        float: left;
+        margin-top: 10px !important;
+      }
+    
+      .btn:hover {
+          background-color: #8683c3;
+          color: white;
+      }
+    
+      .btn:focus {
+        background-color: #8683c3;
+        color: white;
+      }
+      #navbar {
+        overflow: hidden;
+        background-color: #333;
+        z-index: 9999;
+        height: 80px;
+      }
 } 
