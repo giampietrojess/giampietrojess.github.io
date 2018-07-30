@@ -60,13 +60,19 @@ body {
 
   }
   .sticky + .content {
-    padding-top: 102px;
+    padding-top: 150px;
   
   }
   .btn {
-      margin: 20px;
-      background-color: #fff;
-      color: #000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    background-color: #aaa;
+    color: white;
+    height: 64px;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
   }
 
   .btn:hover {
@@ -128,3 +134,4 @@ body {
     margin-top: 20px;
     border: 2px solid black;
 }
+
