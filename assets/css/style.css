@@ -154,6 +154,7 @@ h1 {
     font-size: 7vw;
     letter-spacing: 2px;
     margin-left: 80px;
+    
 }
 
 .tech {
@@ -162,5 +163,28 @@ h1 {
     padding: 40px !important;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    color: #333;
+    color: #eee;
+
 }
+
+.q1 {
+    font-family: 'Sail', cursive;
+    font-size: 11vw;
+    float: right;
+    color: #777;
+    margin-top: -70px;
+    margin-right: -10px;
+    height: 120px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .headerText {
+        float:none;
+        width:100%;
+        margin-top: 450px;
+        background-color: white;
+    
+    }
+} 
