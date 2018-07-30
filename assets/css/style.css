@@ -1,6 +1,7 @@
 body {
     background-image: url("https://i.imgur.com/zLH9vSy.png");
     background-repeat: repeat;
+    overflow-x: hidden;
 }
 
 .banner {
@@ -58,11 +59,12 @@ body {
     margin-bottom: 200px;
 
   }
-  .content {
-    margin-top: 10px;
+  .sticky + .content {
+    padding-top: 102px;
+  
   }
   .btn {
-      margin: 20px;
+      margin: 30px;
       background-color: #fff;
       color: #000;
   }
@@ -103,6 +105,8 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
+    background: url("../images/placehold.jpeg") no-repeat top center;
+    background-size: contain;
     background-color: #8683c3;
     visibility: visible;
     -webkit-transform: rotate(-60deg);
