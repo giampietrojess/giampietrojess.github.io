@@ -160,7 +160,7 @@ h1 {
 .tech {
     background-color: #8683c3;
     height: 110px;
-    padding: 40px !important;
+    padding: 20px !important;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     color: #eee;
@@ -176,6 +176,26 @@ h1 {
     margin-right: -10px;
     height: 120px;
 }
+
+.techLogo {
+    width: 170px;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: #333;
+    letter-spacing: 2px;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+h5 {
+    font-family: 'Abril Fatface', cursive;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+    
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
