@@ -20,6 +20,12 @@ body {
     height:650px;
     padding: 20px;
 }
+.outerBanner2 {
+    background: url("../images/galaxybgbottom.png") no-repeat top center;
+    background-size: cover;
+    height:350px;
+    padding: 20px;
+}
 
 .headerText {
     float:right;
@@ -193,11 +199,22 @@ h3 {
     margin-top: 10px;
     text-transform: uppercase;
 }
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #8683c3;
+}
 h5 {
     font-family: 'Abril Fatface', cursive;
     color: #aaa;
     text-transform: uppercase;
     margin-bottom: 25px;
+}
+
+footer {
+    background-color: #444;
+    border-top: 10px #ccc solid;
+    color: white;
+    padding: 20px;
 }
 
 /* #panel {
