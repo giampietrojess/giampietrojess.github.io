@@ -6,7 +6,17 @@ $(document).on('click', 'a[href^="#"]', function (event) {
      }, 500);
 });
 
+$(function(){
 
+    $('div.name').animate({'margin-left': '450px', 'margin-top' : '100px'}, 500);
+    
+});
+
+$(function(){
+
+    $('div.script').animate({'margin-left': '450px', 'margin-top' : '0px'}, 1000);
+    
+});
 
 
 document.addEventListener('DOMContentLoaded', function() {
